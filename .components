@@ -7,3 +7,4 @@
 :stylesheet: scss
 :namespace: Kpckara
 :migration_format: number
+:admin_renderer: erb
