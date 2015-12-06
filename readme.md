@@ -22,6 +22,9 @@ bundle exec guard -i
 accces to:
 http://localhost:9393
 
+administrator's page:
+http://localhost:9393/admin/
+
 ## Install
 
 ```
