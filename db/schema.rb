@@ -26,6 +26,9 @@ ActiveRecord::Schema.define(version: 2) do
   create_table "events", force: :cascade do |t|
     t.string   "title"
     t.datetime "start_at"
+    t.datetime "opening_at"
+    t.datetime "release_at"
+    t.integer  "visible"
     t.text     "body"
     t.datetime "created_at"
     t.datetime "updated_at"

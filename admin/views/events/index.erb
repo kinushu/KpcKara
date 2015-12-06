@@ -39,6 +39,9 @@
                 <th class=header> <%= mat(:event, :id) %></th>
                 <th class=header> <%= mat(:event, :title) %></th>
                 <th class=header> <%= mat(:event, :start_at) %></th>
+                <th class=header> <%= mat(:event, :opening_at) %></th>
+                <th class=header> <%= mat(:event, :release_at) %></th>
+                <th class=header> <%= mat(:event, :visible) %></th>
                 <th class=header> <%= mat(:event, :body) %></th>
                 <th class=header> <%= mat(:event, :created_at) %></th>
                 <th class=header> <%= mat(:event, :updated_at) %></th>
@@ -55,6 +58,9 @@
           <td class=list-column> <%= event.id %> </td>
           <td class=list-column> <%= event.title %> </td>
           <td class=list-column> <%= event.start_at %> </td>
+          <td class=list-column> <%= event.opening_at %> </td>
+          <td class=list-column> <%= event.release_at %> </td>
+          <td class=list-column> <%= event.visible %> </td>
           <td class=list-column> <%= event.body %> </td>
           <td class=list-column> <%= time_ago_in_words event.created_at %></td>
           <td class=list-column> <%= time_ago_in_words event.updated_at %></td>
