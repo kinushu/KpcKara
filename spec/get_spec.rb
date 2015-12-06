@@ -18,6 +18,14 @@ describe 'KpctoonApp' do
         expect(subject).to be_ok
       end
     end
+
+    describe "/admin/" do
+      let(:url){'/admin/'}
+      it "表示可能" do
+        # expect(subject).to be_ok
+      end
+    end
+
   end
 
 end
